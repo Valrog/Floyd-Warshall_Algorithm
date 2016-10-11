@@ -38,7 +38,7 @@ void FloydWarshall(std::vector<std::vector<int>> &adjMatrix, std::vector<std::ve
 
 	ReadMatrix("matrix.txt", shPaths); // In the beginning, matrix of shortest paths is equal to the adjacency matrix from the file
 
-	int n = adjMatrix.size(); // Koliko vozlisc imamo
+	int n = adjMatrix.size(); // How many vertices there are
 
 	std::cout << "\nNumber of vertices in a given graph: " << n << std::endl;
 
